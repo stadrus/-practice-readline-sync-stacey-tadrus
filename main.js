@@ -12,8 +12,9 @@ let questions = readline.question[
        "5. What is === used for?"
 ];
 
-for (let i = 0; i < questions.lenght; i++) {
-       let response = readline.question(questions[i] + " ");
-       console.log( ${i+1}: ${questions[i]});
-       console.log(${respose}\n);
-}
+for (let i = 0; i < questions.length; i++); {
+        let userResponse = readline.question(questions[i] + " ");
+              console.log(`Q ${i +1}: {questions [i]}`);
+              console.log(`Your response ${userResponse}\n`);
+
+};
